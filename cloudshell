@@ -1,0 +1,12 @@
+ rm -r mslearn-ai-vision -f
+ git clone https://github.com/MicrosoftLearning/mslearn-ai-vision
+
+
+cd mslearn-ai-vision/Labfiles/analyze-images/python/image-analysis
+ls -a -l
+
+python -m venv labenv
+./labenv/bin/Activate.ps1
+pip install -r requirements.txt azure-ai-vision-imageanalysis==1.0.0
+
+
